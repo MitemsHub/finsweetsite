@@ -1,0 +1,948 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 50px;
+}
+.head {
+    margin-top: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul li {
+    margin-right: 20px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightSection {
+    display: flex;
+}
+
+.road {
+    display: flex;
+}
+
+.road .call-icon {
+    margin-right: 10px;
+}
+
+.road .line {
+    margin-right: 10px;
+}
+#bodySection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#bodySection .bodyLeftSection, #bodySection .bodyrightSection {
+    width: 50%;
+}
+
+.bodyrightSection img {
+    min-height: 80vh;
+    width: 100%;
+}
+
+.bodyLeftSection{
+    margin-top: 70px;
+}
+.bodyLeftSection h1 {
+    font-size: 60px;
+    font-family: manrope;
+}
+
+.btn {
+    background-color:#FF6433;
+    padding: 16px 40px 16px 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.bodyLeftSection .open {
+    display: flex;
+    padding-top: 30px;
+}
+
+.bodyLeftSection .open #clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#openText .p {
+    color: #939191;
+    font-size: 16px;
+}
+
+.serviceSection {
+    background-color: #E2E6E9;
+    padding: 30px;
+}
+
+.list ul li {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.serviceHead h2 {
+    font-size: 58px;
+}
+
+.serviceContainer .serviceLeft  {
+    width: 60%;
+}
+
+.serviceContainer .serviceRight {
+    width: 40%;
+}
+
+.list .listImage {
+    margin-right: 10px;
+}
+
+.list .listText #serviceText {
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.list .listText p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.aboutUs {
+    display: flex;
+    margin-left: 49px;
+    padding-top: 20px;
+}
+
+.aboutUs .know-image {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs .aboutText a {
+    text-decoration: none;
+    color: black;
+}
+
+.serviceContainer .serviceRight h3 {
+    font-size: 48px;
+}
+
+.serviceRight .formSection input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.serviceRight .formSection {
+    margin-top: 20px;
+}
+
+.roadmapContainer .roadmapLeft {
+    width: 60%;
+}
+
+.roadmapContainer .roadmapRight {
+    width: 40%;
+}
+
+.roadmapLeft h2 {
+    font-size: 58px;
+}
+
+.roadmapContainer {
+    margin-top: 100px;
+}
+
+.roadmapSection{
+    padding: 30px;
+}
+
+.list1 .listImage {
+    width: 10%;
+}
+
+.list1 .listImage .img img {
+    width: 100%;
+}
+
+.list1 .listImage .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list1 .listImage .line img {
+    margin-top: 10px;
+}
+
+.processContainer .processText {
+    text-align: center;
+}
+
+.processContainer .processList ul {
+    display: flex;
+    width: 100%;
+    padding: 1px;
+}
+
+.processContainer .processList ul li {
+    list-style: none;
+    width: 100%;
+    padding-left: 2px;
+}
+
+.processContainer .processList ul li img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.processSection{
+    background-color: #E2E6E9;
+    padding: 30px;
+}
+
+.processText h2 {
+    font-size: 50px;
+}
+
+.processText p {
+    font-size: 24px;
+}
+
+.learnUs {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experienceSection {
+    margin-bottom: 10px;
+}
+
+.experience {
+    background-color: #E2E6E9;
+}
+.experience .experienceImage {
+    width: 100%;
+}
+
+.experience .experienceImage img {
+    width: 100%;
+}
+
+.experienceList ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.experienceList ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.experienceList h2 {
+    color: #661CE7;
+}
+
+.experienceList p {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.brandContainer {
+    padding: 30px;
+}
+
+.brandList1 ul {
+    display: flex;
+}
+
+.brandList2 ul {
+    display: flex;
+}
+
+.brandList1 ul li {
+    list-style: none;
+}
+
+.brandList2 ul li {
+    list-style: none;
+}
+
+.brandText h2 {
+    text-align: center;
+    font-size: 40;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.customerSection {
+    background-color: #F2F2F2;
+    padding: 30px;
+}
+
+.testimony {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony .leftTest, .testimony .rightTest {
+    width: 40%;
+    border: none;
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+}
+
+.testimony .leftTest {
+    margin-right: 10px;
+}
+
+.customerProfile {
+    display: flex;
+}
+
+.customerProfile .customerName {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.customerName .name p {
+    font-weight: bold;
+}
+
+.arrows {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.arrows .arr1  {
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    width: 5%;
+    display: inline-block;
+}
+
+.arr1 img {
+    width: 100%;
+}
+
+.arrows .arr2 {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 5%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.arrows .lines {
+    margin-right: 200px;
+}
+
+.customerText h3 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.processes {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process1 {
+    display: flex;
+    width: 220px;
+    min-height: 180px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.process1:hover {
+    background-color: #FF6433;
+    color: white;
+    font-weight: bold;
+}
+
+.process1 .icon3 img {
+    filter: invert(100%);
+}
+
+.process1:hover img {
+    filter: invert(200%);
+}
+
+.ctaimg {
+    display: flex;
+    width: 100%;
+}
+
+.ctaimg .img {
+    width: 100%;
+}
+
+.orange {
+    position: relative;
+}
+
+.orange-text {
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+}
+
+.orange-text {
+    color: white;
+    font-size: 25px;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+
+.contact {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.contact {
+    background-color:black;
+    padding: 9px 15px 9px 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 9px;
+    margin-top: 30px;
+}
+
+.orange a {
+    text-decoration: none;
+    color: white;
+}
+
+.faqSection {
+    padding: 30px;
+    background-color: #E2E6E9;
+}
+
+.faqText {
+    width: 40%;
+    padding: 10px 70px 10px 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.faqText p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #939191;
+}
+
+.faqText h6 {
+    font-size: 14px;
+    width:100%;
+    font-weight: 600;
+}
+
+.sign {
+    position: absolute;
+    margin-left: 330px;
+    width: 10%;
+}
+
+.sign img {
+    width: 100%;
+}
+
+.minus img {
+    width:20%;
+    padding: 10px;
+    background-color: #FF6433;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.faqContainer h3 {
+    text-align: center;
+}
+
+.faqContainer .faqHead {
+    margin-bottom: 30px;
+}
+
+.contactSection {
+    background-color: #1E1B1B;
+    padding: 30px;
+    color: white;
+}
+
+.contactRight {
+    width: 40%;
+    margin-top: 40px;
+}
+
+.contactLeft {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.contactLeft h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contactLeftImages {
+    display: flex;
+}
+
+.contactLeftImages img {
+    padding: 10px;
+}
+
+.contactRight #contactText p {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.contactRight #contactText {
+    margin-top: 20px;
+}
+
+.contactRight p {
+    margin-top: 5px;
+}
+
+.foot {
+    background-color: #1E1B1B;
+    padding: 30px;
+    color: white;
+}
+
+.foot .links ul li  a {
+    color: white;
+}
+
+.foot .links ul {
+    margin-right: 120px;
+}
+
+.copyRight p {
+    font-size: 12px;
+    color: #939191;
+}
+
+@media (max-width: 769px) {
+    .container {
+        width: 90%;
+    }
+
+    #bodySection {
+        margin-bottom: 30px;
+    }
+
+    .bodyLeftSection h1 {
+        font-size: 45px;
+    }
+
+    #bodySection .bodyLeftSection, #bodySection .bodyrightSection {
+        margin-top: 50px;
+    }
+
+    .bodyrightSection img {
+        min-height: 70vh;
+    }
+
+    .serviceContainer .serviceLeft {
+        width: 50%;
+    }
+
+    .serviceContainer .serviceRight {
+        width: 40%;
+    }
+
+    .serviceHead h2, .serviceContainer .serviceRight h3, .roadmapLeft h2 {
+        font-size: 35px;
+    }
+
+    .roadmapContainer {
+        margin-top: 30px;
+    }
+
+    .roadmapContainer .roadmapLeft {
+        width: 50%;
+        margin-top: 50px;
+
+    }
+
+    .list1 .listImage {
+        width: 20%;
+    }
+
+    .list .listText #serviceText {
+        font-size: 20px;
+    }
+
+    .orange-text {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 19px;
+    }
+
+    .contact {
+        left: 10px;
+        padding: 7px;
+        bottom: 20px;
+    }
+
+    .brandSection {
+        padding: 30px 0;
+    }
+
+    .brandList1 ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brandList2 ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrows .arr2, .arrows .arr1 {
+        width: 6%;
+    }
+
+    .arrows {
+        margin-right: 0;
+    }
+
+    .testimony .leftTest, .testimony .rightTest {
+        width: auto;
+    }
+
+    .arrows .lines {
+        width: 15%;
+    } 
+
+    .arrows .lines img {
+        width: 80%;
+    }
+
+    .faqText {
+        width: 60%;
+    }
+
+    .minus img {
+        width:  32%;
+    }
+
+    .foot .links ul {
+        margin-right: 0;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .head .flex {
+        flex-direction: column;
+    }
+
+    .rightSection {
+        flex-direction: column;
+    }
+
+    .road .line {
+        display: none;
+    }
+
+    .rightSection .links {
+        padding: 10px;
+    }
+
+    .links ul {
+        flex-direction: column;
+    }
+
+    .links ul li {
+        padding: 10px;
+    }
+
+    #bodySection {
+        flex-direction: column;
+    }
+
+    #bodySection .bodyLeftSection, #bodySection .bodyrightSection {
+        width: 100%;
+    }
+
+    #bodySection .bodyLeftSection {
+        order: 2;
+        margin-bottom: 30px;
+    }
+
+    #bodySection .bodyrightSection {
+        order: 1;
+    }
+
+    .bodyLeftSection h1 {
+        font-size: 50px;
+    }
+
+    .serviceSection .flex {
+        flex-direction: column;
+    }
+
+    .serviceContainer .serviceLeft {
+        width: 100%;
+    }
+
+    .serviceContainer .serviceRight {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .sect3 .flex {
+        flex-direction: column;
+    }
+
+    .roadmapContainer {
+        margin-top: 50px;
+    }
+
+    .roadmapContainer .roadmapLeft {
+        width: 100%;
+    }
+
+    .roadmapLeft h2 {
+        font-size: 45px;
+    }
+
+    .roadmapContainer .roadmapRight {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .list .listText #serviceText {
+        margin-top: 0;
+    }
+
+    .processText h2 {
+        font-size: 35px;
+    }
+
+    .processes {
+        flex-direction: column;
+    }
+
+    .brandList1 ul {
+        flex-direction: column;
+    }
+
+    .brandList2 ul {
+        display: none;
+    }
+
+    .testimony .leftTest, .testimony .rightTest {
+        width: 100%;
+    }
+
+    .testimony {
+        flex-direction: column;
+    }
+
+    .testimony .rightTest {
+        margin-top: 10px;
+    }
+
+    .testimony .leftTest {
+        margin-right: 0;
+    }
+
+    /* .arrows {
+        display: none;
+    } */
+
+    .lines {
+        display: none;
+    }
+
+    .faqText {
+        width: 100%;
+    }
+    
+    .sign {
+        margin-left: 280px;
+    }
+
+    .minus img {
+        width: 60%;
+    }
+
+    .sect9 .flex {
+        flex-direction: column;
+    }
+
+    .contactLeft, .contactRight {
+        width: 100%;
+    }
+
+    .contactRight {
+        margin-top: 0;
+    }
+
+    .foot .flex {
+        flex-direction: column;
+    }
+
+    .orange a {
+        bottom: 10px;
+        font-size: 6px;
+    }
+
+    .contact {
+        left: 0;
+        padding: 5px 7px 5px 7px;
+        border-radius: 0;
+    }
+
+    .orange-text {
+        padding-top: 0;
+        padding-left: 2px;
+        font-size: 10px;
+    }
+
+    .experienceList p {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .experienceList h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .customerText h3 {
+        font-size: 40px;
+    }
+
+    .serviceHead h2 {
+        font-size: 50px;
+    }
+
+    .right-sect img {
+        min-height: 70vh;
+        margin-top: 20px
+    }
+
+    .arrows .arr1 {
+        width: 15%;
+    }
+
+    .arrows .arr2 {
+        width: 15%;
+    }
+
+    .arrows {
+        margin-right: 0;
+    }
+}
+
+@media (max-width:376px) {
+    .sign {
+        margin-left: 240px;
+    }
+
+    .minus img {
+        width: 70%;
+    }
+}
+
+@media (max-width:321px) {
+   
+    .faqText .sign {
+        margin-left: 195px;
+    }
+
+    .minus img {
+        width: 80%;
+    }
+
+    .orange-text {
+        font-size: 7.5px;
+    }
+
+    .serviceHead h2 {
+        font-size: 40px;
+    }
+
+    .left-section h1 {
+        font-size: 40px;
+    }
+
+    .customerText h3 {
+        font-size: 30px;
+    }
+}

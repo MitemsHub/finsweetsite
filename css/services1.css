@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Manrope", sans-serif;
+}
+
+.container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container h2 {
+    font-size: 50px;
+}
+.head {
+    margin-top: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul li {
+    margin-right: 20px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightSection {
+
+    display: flex;
+}
+
+.road {
+    display: flex;
+}
+
+.road .callIcon {
+    margin-right: 10px;
+}
+
+.road .line {
+    margin-right: 10px;
+}
+
+/* Body Section */
+
+.bodySection {
+    padding: 80px 0;
+}
+
+.bodyContainer {
+    height: 450px;
+    display: flex;
+    color: white;
+}
+
+.bodyContainerRight {
+    width: 50%;
+    background-color: black;
+}
+
+.bodyContainerLeft {
+    width: 50%;
+}
+
+.bodyContainerLeft img {
+    width: 100%;
+    height: 450px;
+}
+
+.bodyContainerRight .bodyTextHead {
+    margin-top: 120px;
+}
+
+.bodyContainerRight .bodyTextHead h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.bodyContainerRight .bodyText1 {
+    width: 70%;
+    margin-top: 10px;
+}
+
+.bodyContainerRight .bodyText1, .bodyContainerRight .bodyTextHead {
+    margin-left: 50px;
+}
+
+.btn {
+    background-color:#FF6433;
+    padding: 16px 40px 16px 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Services Section */
+
+.serviceSection {
+    background: #F5F5F5;
+    padding: 80px 0;
+}
+
+.serviceContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 565px;
+}
+
+.serviceContainerLeft {
+    width: 45%;
+    background-color: white;
+}
+
+.serviceContainerRight {
+    width: 53%;
+}
+
+.serviceImage {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.serviceImage img {
+    width: 100%;
+}
+
+.serviceText {
+    padding: 30px;
+}
+
+.serviceText .autoHead h3 {
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+.detailsHead {
+    display: flex;
+    padding-top: 20px;
+}
+
+.detailsHead .detailsImage {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsHead .detailsText a {
+    text-decoration: none;
+    color: black;
+}
+
+.serviceRight .serviceBox {
+    background-color: white;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48%;
+    margin-bottom: 12px;
+
+
+}
+
+.serviceRight {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.serviceRight .serviceBox:hover {
+    background-color: #FF6433;
+    color: white;
+    font-weight: bold;
+}
+
+.serviceBox
+:hover img {
+    filter: invert(100%);
+}
+
+/* Process Section */
+
+.processBody {
+    padding: 80px 0;
+}
+
+.processBody .processBodyLeft {
+    width: 45%;
+}
+
+.processBodyLeft h3 {
+    font-size: 40px;
+}
+
+.processList {
+    margin-top: 30px;
+}
+
+.processList .processImage {
+    width: 8%;
+}
+
+.processList .processImage img {
+    width: 100%;
+}
+
+.processList .processText {
+    width: 90%;
+}
+
+.processSection .processBodyRight {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.processBodyRight .processImage1, .processBodyRight .processImage2 {
+    width: 49%;
+}
+
+.processBodyRight .processImage1 img {
+    width: 100%;
+}
+
+.processBodyRight .processImage2 img {
+    width: 100%;
+}
+
+/* Diagnosis Section */
+
+.diagnosisSection {
+    padding: 80px 0;
+}
+
+.diagnosisSection .diagnosisBodyLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diagnosisBodyLeft .diagnosisImage1, .diagnosisBodyLeft .diagnosisImage2 {
+    width: 49%;
+}
+
+.diagnosisBodyLeft .diagnosisImage1 img {
+    width: 100%;
+}
+
+.diagnosisBodyLeft .diagnosisImage2 img {
+    width: 100%;
+}
+
+.diagnosisBodyRight {
+    width: 45%;
+}
+
+.diagnosisBodyRight .diagnosisText1 {
+    width: 80%;
+}
+
+.diagnosisBodyRight .diagnosisText1 h3 {
+    font-size: 30px;
+}
+
+.diagnosisBodyRight .bodyText1-text {
+    margin-top: 30px;
+}
+
+.btn1 {
+    margin-left: 0;
+    margin-top: 60px;
+}
+
+/* Contact Section */
+
+.contactSection {
+    background-color: #1E1B1B;
+    padding: 30px;
+    color: white;
+}
+
+.contactSectionRight {
+    width: 40%;
+    margin-top: 40px;
+}
+
+.contactSectionLeft {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.contactSectionLeft h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contactLeftImages {
+    display: flex;
+}
+
+.contactLeftImages img {
+    padding: 10px;
+}
+
+.contactSectionRight #contactText p {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.contactSectionRight #contactText {
+    margin-top: 20px;
+}
+
+.contactSectionRight p {
+    margin-top: 5px;
+}
+
+/* Footer Section */
+
+.foot {
+    background-color: #1E1B1B;
+    padding: 30px;
+    color: white;
+}
+
+.foot .links ul li  a {
+    color: white;
+}
+
+.foot .links ul {
+    margin-right: 120px;
+}
+
+.copyRight p {
+    font-size: 12px;
+    color: #939191;
+}
